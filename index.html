@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#5A3927">
-  <meta name="description" content="Try Out Bahasa Indonesia — Pergerakan Nasional Indonesia dan Sumpah Pemuda.">
-  <title>Try Out Bahasa Indonesia</title>
+  <meta name="theme-color" content="#304C89">
+  <meta name="description" content="Try Out UH-3 Sejarah — Pergerakan Nasional Indonesia dan Sumpah Pemuda.">
+  <title>Try Out UH-3 Sejarah</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
@@ -31,7 +31,7 @@
           <p class="hero-desc" id="heroDescription">Ruang latihan pembelajaran yang dapat kamu sesuaikan dengan materi, kisi-kisi, dan kebutuhanmu.</p>
           <div class="hero-actions">
             <button class="primary-btn" id="exploreBtn">Pilih paket <span>↗</span></button>
-            <span class="micro-note">200 BUTIR · 5 PAKET · 40 SOAL</span>
+            <span class="micro-note">125 BUTIR · 5 PAKET · 25 INDIKATOR</span>
           </div>
         </div>
         <div class="hero-art">
@@ -67,8 +67,8 @@
         <div class="note-panel">
           <div class="eyebrow" id="guideEyebrow">PANDUAN PENGERJAAN</div>
           <h3 id="guideTitle">Ruang yang tenang<br>untuk berpikir jernih.</h3>
-          <div class="guide-row"><span id="guideLabel1">01</span><p id="guideItem1">Setiap paket berisi soal pilihan ganda berbasis teks. Satu soal tampil pada satu waktu.</p></div>
-          <div class="guide-row"><span id="guideLabel2">02</span><p id="guideItem2">Baca teks bacaan, pahami pertanyaan, lalu pilih opsi A–E yang sesuai.</p></div>
+          <div class="guide-row"><span id="guideLabel1">01</span><p id="guideItem1">Setiap paket berisi soal bergambar. Satu soal tampil pada satu waktu.</p></div>
+          <div class="guide-row"><span id="guideLabel2">02</span><p id="guideItem2">Soal dan opsi A–E berada dalam satu gambar. Pilih jawaban melalui tombol di bawah gambar.</p></div>
           <div class="guide-row"><span id="guideLabel3">03</span><p id="guideItem3">Evaluasi singkat muncul secara berkala dan jawaban dapat ditinjau setelah paket selesai.</p></div>
         </div>
         <div class="progress-panel">
@@ -102,8 +102,8 @@
           </div>
           <div class="question-card" id="questionCard">
             <div class="question-kicker" id="questionKicker">BACA SOAL DENGAN CERMAT</div>
-            <section class="reading-panel" id="readingPanel"><div class="reading-panel-label">TEKS BACAAN</div><div class="reading-text" id="readingText">Teks bacaan akan ditampilkan di sini.</div></section>
-            <h2 id="questionText" class="visually-hidden"></h2>
+            <div class="reading-panel" id="readingPanel"><div class="reading-label">BAHAN BACAAN / TEKS ACUAN</div><div class="reading-content" id="readingContent"></div></div>
+            <h2 id="questionText" class="question-stem"></h2>
             <p class="select-hint" id="selectHint">Pilih satu jawaban yang paling tepat.</p>
             <div class="options-list" id="optionsList"></div>
             <div class="answer-feedback" id="answerFeedback" hidden></div>
@@ -169,7 +169,7 @@
       <div class="integrity-count"><span>JUMLAH PELANGGARAN</span><strong id="violationCount">01</strong></div>
       <p class="integrity-note">Suara peringatan akan diputar lima kali. Tekan tombol di bawah untuk melanjutkan dan mengaktifkan kembali mode layar penuh.</p>
       <div class="integrity-actions">
-        <button class="primary-btn" id="resumeExam">Saya mengerti — lanjutkan <span>→</span></button>
+        <button class="primary-btn" id="resumeExam">Kembali ke latihan soal <span>→</span></button>
         <button class="text-btn integrity-replay" id="replayAlert">Putar ulang audio peringatan</button>
       </div>
     </div>

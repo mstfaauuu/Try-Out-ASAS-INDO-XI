@@ -1,22 +1,17 @@
-# Ruang Bahasa — Template Try Out Bahasa Indonesia
+# Ruang Bahasa Indonesia - Edisi 01
 
-Template try out berbasis teks bacaan dengan palet coffee editorial.
+Website latihan Bahasa Indonesia kelas XI, 3 paket, masing-masing 40 soal pilihan ganda.
 
-## Mulai
-1. Ekstrak folder project.
-2. Buka folder `template website` di VS Code.
-3. Jalankan dengan Live Server (disarankan), karena project menggunakan `fetch()` untuk membaca JSON.
+## Menjalankan
+Buka folder ini di VS Code lalu jalankan `index.html` dengan Live Server.
 
-## Mengisi bank soal
-Edit `bank-soal.json`. Setiap paket A–E berisi 40 nomor. Tiap nomor memiliki `reading` (teks bacaan), `question` (pertanyaan), dan `options` (opsi A–E).
+## Bank soal
+Semua bacaan, pertanyaan, dan opsi A-E berada di `bank-soal.json`. Format setiap pertanyaan memiliki `reading`, `question`, dan `options`.
 
-Contoh nomor soal:
-```json
-{
-  "number": 1,
-  "reading": "Teks bacaan...",
-  "question": "Gagasan utama teks tersebut adalah ...",
-  "options": {"A":"...", "B":"...", "C":"...", "D":"...", "E":"..."}
-}
-```
-Kunci jawaban tetap berada di `kunci-jawaban/paket-X/kunci.json`.
+
+## Kunci jawaban
+Kunci A-E telah diambil dari tabel kunci jawaban di bagian akhir dokumen sumber (PDF hasil render DOCX), 40 nomor untuk setiap paket. Kunci tersimpan di `kunci-jawaban/paket-1/`, `paket-2/`, dan `paket-3/`.
+
+
+## Peringatan tab / halaman
+Saat halaman ujian ditinggalkan, audio peringatan berulang dan getaran berulang diaktifkan. Peringatan berhenti ketika tombol **Kembali ke latihan soal** ditekan. Pada pelanggaran ke-3, mekanisme pengumpulan otomatis tetap berlaku. Audio dan getaran di latar belakang bergantung pada izin serta kebijakan browser dan perangkat; browser tidak menjamin keduanya selalu berjalan saat halaman disembunyikan.
