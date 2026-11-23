@@ -1,0 +1,105 @@
+{
+  "siteTitle": "RUANG BAHASA",
+  "edition": "UH—03",
+  "subject": "BAHASA INDONESIA",
+  "courseLabel": "BAHASA INDONESIA · KELAS XI",
+  "topLabel": "RUANG LATIHAN AKADEMIK",
+  "locationLabel": "INDONESIA",
+  "headlineLine1": "Membaca dengan cermat.",
+  "headlineLine2": "Memahami dengan utuh.",
+  "heroDescription": "Ruang latihan Bahasa Indonesia untuk menguji pemahaman bacaan, kaidah, dan keterampilan berbahasa.",
+  "heroEyebrow": "MATERI PEMBELAJARAN · KELAS XI",
+  "archiveTitle": "ARSIP PEMBELAJARAN",
+  "archiveDate": "1928 / 01",
+  "archiveSymbol": "BI",
+  "archiveMonth": "LIT",
+  "archiveCaption": "BAHASA\nLITERASI\nPEMAHAMAN",
+  "archiveFooterLeft": "CATATAN PEMBELAJARAN",
+  "archiveFooterRight": "INDONESIA",
+  "figureCaption": "FIG. 01 — LEARNING ARCHIVE",
+  "packageCountLabel": "PAKET LATIHAN",
+  "questionCountLabel": "BUTIR SOAL",
+  "indicatorCountLabel": "INDIKATOR",
+  "packages": [
+    {
+      "id": "A",
+      "name": "Paket A"
+    },
+    {
+      "id": "B",
+      "name": "Paket B"
+    },
+    {
+      "id": "C",
+      "name": "Paket C"
+    },
+    {
+      "id": "D",
+      "name": "Paket D"
+    },
+    {
+      "id": "E",
+      "name": "Paket E"
+    }
+  ],
+  "questionsPerPackage": 40,
+  "options": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "questionImagePrefix": "",
+  "imageFolder": "",
+  "answerFolder": "kunci-jawaban",
+  "answerKeyFile": "kunci.json",
+  "answerMode": "single",
+  "checkpointEvery": 10,
+  "footerLeft": "RUANG BAHASA · TEMPLATE",
+  "footerMiddle": "LITERASI · PEMAHAMAN",
+  "footerRight": "LATIHAN BAHASA INDONESIA",
+  "questionInstruction": "Pilih jawaban yang paling tepat berdasarkan teks dan pertanyaan.",
+  "checkpointTitle": "Berhenti sejenak.\\nPeriksa pemahamanmu.",
+  "checkpointDescription": "Kamu telah menyelesaikan beberapa soal. Periksa kembali pola jawaban dan lanjutkan dengan fokus.",
+  "brandShort": "BI",
+  "brandTop": "RUANG BAHASA",
+  "brandBottom": "LATIHAN · KELAS XI",
+  "sectionEyebrow": "PILIH RUANG LATIHAN",
+  "packageSectionTitle": "Daftar paket",
+  "packageSectionDescription": "Kerjakan sesuai ritmemu. Progres setiap paket tersimpan otomatis di perangkat ini.",
+  "guideEyebrow": "PANDUAN PENGERJAAN",
+  "guideTitle": "Ruang untuk membaca\ndan berpikir jernih.",
+  "guideItems": [
+    "Setiap paket terdiri dari soal pilihan ganda berbasis teks.",
+    "Baca teks bacaan yang tersedia, lalu pilih jawaban A–E.",
+    "Progres tersimpan otomatis dan hasil dapat ditinjau setelah paket selesai."
+  ],
+  "progressEyebrow": "REKAM JEJAK",
+  "progressTitle": "Progres latihan",
+  "resultEyebrow": "HASIL PENGERJAAN",
+  "resultMessageStrong": "Pemahamanmu sudah kuat. Pertahankan ketelitian dan lanjutkan latihan.",
+  "questionKicker": "BACA TEKS DENGAN CERMAT",
+  "questionStatusUnanswered": "BELUM DIJAWAB",
+  "questionStatusAnswered": "JAWABAN TERSIMPAN",
+  "packageCardDescription": "Teks bacaan · Pilihan A–E",
+  "archiveTopLeft": "ARSIP PEMBELAJARAN",
+  "archiveTopRight": "1928 / 01",
+  "archiveFootLeft": "CATATAN SEJARAH",
+  "archiveFootRight": "INDONESIA",
+  "floatingStampLabel": "EDISI",
+  "heroIndex": "FIG. 01 — LITERASI & PEMAHAMAN",
+  "statLabelPackages": "PAKET LATIHAN",
+  "statLabelQuestions": "BUTIR SOAL",
+  "statLabelThird": "PILIHAN",
+  "statLabelIndicators": "SOAL / PAKET",
+  "checkpointEyebrow": "EVALUASI BERKALA",
+  "examMetaLabel": "LATIHAN",
+  "quizTypeLabel": "PILIHAN GANDA",
+  "questionImageAlt": "Gambar soal beserta opsi jawaban",
+  "guideItemLabels": [
+    "01",
+    "02",
+    "03"
+  ]
+}
